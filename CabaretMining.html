@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Cabaret Mining</title>
+    </head>
+    <body>
+        <div id="entete">
+            <img class="logo1" src="images/cabaretlogo.png" alt="Cabaret Logo" title="Cabaret">
+            <h1>Cabaret Mining</h1>
+            <img class="logo2" src="images/cabaretlogo.png" alt="Cabaret Logo" title="Cabaret">
+        </div>
+
+        <div id="mainpage">
+
+            <section id="leftside">
+                <div id="uppernav">
+                    <h4>Moon Systems</h4>
+                    <ol>
+                        <li>
+                            <p>T-J6HT</p>
+                            <ul>    
+                                <li><a href="pages/T-J6HT-05-03.html">T-J6HT 05-03</a></li>
+                                <li><a href="pages/T-J6HT-05-05.html">T-J6HT 05-05</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>LUA5-L</p>
+                            <ul>    
+                                <li><a href="pages/LUA5-L-04-13.html">LUA5-L 04-13</a></li>
+                                <li><a href="pages/LUA5-L-05-01.html">LUA5-L 05-01</a></li>
+                                <li><a href="pages/LUA5-L-05-18.html">LUA5-L 05-18</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>ZA9-PY</p>
+                            <ul>
+                                <li><a href="pages/ZA9-PY-06-08.html">ZA9-PY 06-08</a></li>
+                                <li><a href="pages/ZA9-PY-10-04.html">ZA9-PY 10-04</a></li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <hr id="separateur">
+                <div id="lowernav">
+                    <h4>External Links</h4>
+                    <ul>
+                        <li><a href="https://ore.cerlestes.de/moon" target="_blank">Cerlestes</a> - Consult Moon Asteroids' Value</li>
+                        <li><a href="https://evepraisal.com/" target="_blank">Goonpraisal</a> - Appraise your loot!</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="centercolumn">
+                <div id="welcome">
+                    <h4 id="welcometitle">Welcome to Cabaret's Mining catalogue!</h4>
+                    <p>Use the navigation menu on the left to check each of our available moons' compositions. The external links will help you evaluate these materials according to the current market exchange rates.                
+                    <br />
+                    <br />
+                    Make sure you read, understand and accept the rules below before taking part in our activities!
+                    For queries or suggestions, please fill the form at the bottom.</p>
+                </div>
+
+                <div id="ruleboard">
+                    <h4 id="rulestitle">Mining Policies & Rules</h4>
+                    <ul class="rules">
+                        <li>Moons Belts will be available from Monday 18h EVE Time till Wednesday 19 EVE Time.</li>
+                        <li>The use of Waste Modules is forbidden on R16 and R4 asteroids. Such modules are however tolerated on R8 asteroids.</li>
+                        <li>The Corporation will charge a 10% tax on raw mined ore, which is to be contracted to <mark>Sharp Tsero</mark> until Sunday each week.</li>
+                        <li>If you are flying a Rorqual, you should be aware of defensive procedures in case of hostile attacks.</li>
+                        <li>If you are flying a Rorqual, you should be aware that the alliance will <span>NOT</span> provide a defensive fleet in case of hostile attacks during Stratecic Ops, especially during War Time.</li>
+                    </ul>
+                </div>
+
+                <form id="feedback" method="post" action="mailto:pedro.domingues@stagiairesmns.fr">
+
+                    <legend>Feedback</legend>
+                    <label for="CharacterName">Character Name: </label><input type="text" name="CharacterName" id="CharacterName" maxlength="50" required />
+                    
+                    <br />
+                    <br />
+                    
+                    <label for="timeincorp">How Long have you been attending Cabaret's Mining Fleets?</label>
+                    
+                    <br />
+                    
+                    <input type="radio" name="timeincorp" value="lessthan1week" id="lessthan1week" /> <label for="lessthan1week" >Less than 1 week.</label><br />
+                    <input type="radio" name="timeincorp" value="1week-1month" id="1week-1month" /> <label for="1week-1month" >Between 1 week and 1 month.</label><br />
+                    <input type="radio" name="timeincorp" value="1month-6months" id="1month-6months" /> <label for="1month-6months" >Between 1 month and 6 months.</label><br />
+                    <input type="radio" name="timeincorp" value="1month-6months" id="6+months" /> <label for="6+months" >More than 6 months.</label>
+                    
+                    <br />
+                    <br />
+                
+                    <label for="numberofchars">How many mining Characters do you have?</label><br />
+                    <select name="numberofchars" id="numberofchars">
+                    <option value="...">...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="7+">More than 7</option>
+                    </select>
+                    
+                    <br />
+                    <br />
+                    
+                    <label for="Feedback">If you have questions or suggestions, please drop them in the box below. Any feedback is great!</label><br /><textarea rows="5" name="Feedback" id="Feedback" >I love Cabaret!</textarea>
+                    
+                    <br />
+                    
+                    <input type="submit" value="Send" />
+            
+                </form>
+
+            </section>
+
+            <section id="rightside">
+                <div id="whoweare">
+                    <h4>Who we are</h4>
+                    <div id="presentation">
+                        <caption>Cabaret's 5 year celebration video</caption>
+                        <iframe src="https://www.youtube.com/embed/fjaX8jpLfAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="presentation"></iframe>
+                    </div>     
+                </div>
+            </section>
+        </div>
+
+        <div id="footer">
+            Created by/for <a href="http://www.iniciativacabaret.com.br" target="_blank">Iniciativa Cabaret</a>
+        </div>
+        
+    </body>
+</html>
